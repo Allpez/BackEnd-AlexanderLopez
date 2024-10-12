@@ -4,12 +4,17 @@ import Dog from '../DogBreed.js' //conectamos al modelo
 
 let Dogs = [
     {
-        breed: "Labrador Retriever", // String
-        origin: "Canada", // String
-        size: "Large", // String
-        lifeExpectancy: 12, // Number
-        hypoallergenic: false, // Boolean
-        huntingDog: true // Boolean
+        breed: "Labrador Retriever", 
+        origin: "Canada", 
+        size: "Large", 
+        lifeExpectancy: 12, 
+        hypoallergenic: false, 
+        huntingDog: true, 
+        temperament: "Friendly",
+        coatType: "Short",
+        color: "Black",
+        sheddingLevel: "Moderate",
+        trainability: "High"
     },
     {
         breed: "German Shepherd",
@@ -17,7 +22,12 @@ let Dogs = [
         size: "Large",
         lifeExpectancy: 13,
         hypoallergenic: false,
-        huntingDog: false
+        huntingDog: false,
+        temperament: "Loyal",
+        coatType: "Double",
+        color: "Black and Tan",
+        sheddingLevel: "High",
+        trainability: "Very High"
     },
     {
         breed: "Golden Retriever",
@@ -25,7 +35,12 @@ let Dogs = [
         size: "Large",
         lifeExpectancy: 12,
         hypoallergenic: false,
-        huntingDog: true
+        huntingDog: true,
+        temperament: "Intelligent",
+        coatType: "Medium",
+        color: "Golden",
+        sheddingLevel: "High",
+        trainability: "Very High"
     },
     {
         breed: "French Bulldog",
@@ -33,7 +48,12 @@ let Dogs = [
         size: "Small",
         lifeExpectancy: 12,
         hypoallergenic: false,
-        huntingDog: false
+        huntingDog: false,
+        temperament: "Playful",
+        coatType: "Short",
+        color: "Brindle",
+        sheddingLevel: "Low",
+        trainability: "Moderate"
     },
     {
         breed: "Poodle",
@@ -41,7 +61,12 @@ let Dogs = [
         size: "Medium",
         lifeExpectancy: 15,
         hypoallergenic: true,
-        huntingDog: false
+        huntingDog: false,
+        temperament: "Alert",
+        coatType: "Curly",
+        color: "White",
+        sheddingLevel: "Low",
+        trainability: "Very High"
     },
     {
         breed: "Beagle",
@@ -49,7 +74,12 @@ let Dogs = [
         size: "Medium",
         lifeExpectancy: 15,
         hypoallergenic: false,
-        huntingDog: true
+        huntingDog: true,
+        temperament: "Curious",
+        coatType: "Short",
+        color: "Tri-color",
+        sheddingLevel: "Moderate",
+        trainability: "Moderate"
     },
     {
         breed: "Chihuahua",
@@ -57,7 +87,12 @@ let Dogs = [
         size: "Small",
         lifeExpectancy: 20,
         hypoallergenic: false,
-        huntingDog: false
+        huntingDog: false,
+        temperament: "Alert",
+        coatType: "Short",
+        color: "Tan",
+        sheddingLevel: "Low",
+        trainability: "Moderate"
     },
     {
         breed: "Shih Tzu",
@@ -65,7 +100,12 @@ let Dogs = [
         size: "Small",
         lifeExpectancy: 16,
         hypoallergenic: true,
-        huntingDog: false
+        huntingDog: false,
+        temperament: "Affectionate",
+        coatType: "Long",
+        color: "White and Brown",
+        sheddingLevel: "Low",
+        trainability: "Moderate"
     },
     {
         breed: "Boxer",
@@ -73,7 +113,12 @@ let Dogs = [
         size: "Large",
         lifeExpectancy: 12,
         hypoallergenic: false,
-        huntingDog: false
+        huntingDog: false,
+        temperament: "Energetic",
+        coatType: "Short",
+        color: "Fawn",
+        sheddingLevel: "Moderate",
+        trainability: "High"
     },
     {
         breed: "Dalmatian",
@@ -81,7 +126,12 @@ let Dogs = [
         size: "Large",
         lifeExpectancy: 13,
         hypoallergenic: false,
-        huntingDog: false
+        huntingDog: false,
+        temperament: "Friendly",
+        coatType: "Short",
+        color: "White with Black Spots",
+        sheddingLevel: "High",
+        trainability: "High"
     }
 ];
 

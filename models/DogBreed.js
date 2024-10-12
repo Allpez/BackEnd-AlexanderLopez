@@ -8,6 +8,11 @@ let schema = new Schema({
     lifeExpectancy:{type:Number,required:true},
     hypoallergenic:{type:Boolean,required:true},
     huntingDog:{type:Boolean,required:true},
+    temperament:{type:String,required:true},
+    coatType:{type:String,required:true},
+    color:{type:String,required:true},
+    sheddingLevel:{type:String,required:true},
+    trainability:{type:String,required:true}
 },{
     timestamps:true
 })

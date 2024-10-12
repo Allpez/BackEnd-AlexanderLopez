@@ -8,6 +8,11 @@ let schema = new Schema({
     capacity:{type:Number,required:true},
     founded:{type:Number,required:true},
     inFirstDivision:{type:Number,required:true},
+    coach:{type:String,required:true},
+    leagueTitles:{type:Number,required:true},
+    championsLeagueTitles:{type:Number,required:true},
+    mainRival:{type:String,required:true},
+    colors:{type:String,required:true}
 },{
     timestamps:true
 })
